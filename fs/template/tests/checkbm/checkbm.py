@@ -238,7 +238,7 @@ def check_data(f: TextIOWrapper, ino_ofs: int, ino_blks: int, position: list):
     valid_count = 0
     if not all(byte == 0 for byte in bm):
         res[0] = True
-    if name in bm.decode('utf-8'):
+    if name in bm.decode('utf-8', errors='ignore'):
         res[1] = True
     return res
 
