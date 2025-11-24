@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/li/user-land-filesystem/fs/newfs/build",
+  "command": "/usr/bin/gcc  -I/home/li/user-land-filesystem/fs/newfs/./include  -D_FILE_OFFSET_BITS=64 -no-pie -g -Wall --pedantic -g -o CMakeFiles/newfs.dir/src/newfs.c.o -c /home/li/user-land-filesystem/fs/newfs/src/newfs.c",
+  "file": "/home/li/user-land-filesystem/fs/newfs/src/newfs.c",
+  "output": "CMakeFiles/newfs.dir/src/newfs.c.o"
+}
+]

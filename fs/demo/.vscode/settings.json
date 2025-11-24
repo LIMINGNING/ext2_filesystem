@@ -4,6 +4,7 @@
         "*.wxss": "css",
         "*.wxs": "javascript",
         "ddriver.h": "c",
-        "fs.h": "c"
+        "fs.h": "c",
+        "time64.h": "c"
     }
 }
